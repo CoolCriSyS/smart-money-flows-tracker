@@ -1,0 +1,40 @@
+name: Smart Money Flows Scan
+
+# Runs the Smart Money Flows Tracker scan every 12 hours and commits fresh results.
+# Each scan logs ~20 real Nansen API calls against the key in secrets.
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run flows scan
+        env:
+          NANSEN_API_KEY: ${{ secrets.NANSEN_API_KEY }}
+        run: |
+          python scanner.py --out /tmp/flows.json
+          python - <<'EOF'
+          import json
+          d = json.load(open('/tmp/flows.json'))
+          json.dump(d, open('web/public/data/latest.json', 'w'), indent=1)
+          print(f"scan complete: {len(d['consensus'])} consensus, {len(d['exits'])} exits, {d['api_calls']} api calls")
+          EOF
+
+      - name: Commit fresh data
+        run: |
+          git config user.name "flows-scanner-bot"
+          git config user.email "flows-scanner-bot@users.noreply.github.com"
+          git add web/public/data/latest.json
+          git diff --cached --quiet || git commit -m "chore: refresh smart money flows data"
+          git push
