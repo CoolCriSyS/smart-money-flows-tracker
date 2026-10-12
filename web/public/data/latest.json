@@ -1,10 +1,92 @@
 {
-  "scanned_at": "2026-10-11T16:57:34.863126+00:00",
-  "api_calls": 2,
+  "scanned_at": "2026-10-12T03:08:19.059623+00:00",
+  "api_calls": 18,
   "consensus": [],
   "exits": [],
   "rotation": {
-    "chains": [],
-    "sectors": []
+    "chains": [
+      {
+        "chain": "base",
+        "netflow_7d": 1161100.0
+      },
+      {
+        "chain": "hyperevm",
+        "netflow_7d": -96700.0
+      },
+      {
+        "chain": "solana",
+        "netflow_7d": -2355900.0
+      },
+      {
+        "chain": "ethereum",
+        "netflow_7d": -2596700.0
+      },
+      {
+        "chain": "robinhood",
+        "netflow_7d": -2869100.0
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Crypto Payments",
+        "netflow_7d": 188600.0
+      },
+      {
+        "sector": "AI Agents",
+        "netflow_7d": 126300.0
+      },
+      {
+        "sector": "DePIN",
+        "netflow_7d": 89500.0
+      },
+      {
+        "sector": "L1/L2 Token & Derivatives",
+        "netflow_7d": 64500.0
+      },
+      {
+        "sector": "Token Launch Platform",
+        "netflow_7d": 54600.0
+      },
+      {
+        "sector": "Token Governance",
+        "netflow_7d": 54600.0
+      },
+      {
+        "sector": "Deflationary Token Model",
+        "netflow_7d": 54600.0
+      },
+      {
+        "sector": "Smart Contract Automation",
+        "netflow_7d": 54600.0
+      },
+      {
+        "sector": "Stablecoin Issuers",
+        "netflow_7d": 50600.0
+      },
+      {
+        "sector": "Perps",
+        "netflow_7d": 5000.0
+      },
+      {
+        "sector": "Options and Derivatives",
+        "netflow_7d": 5000.0
+      },
+      {
+        "sector": "Social Fi",
+        "netflow_7d": -21400.0
+      },
+      {
+        "sector": "NFTFi",
+        "netflow_7d": -108400.0
+      },
+      {
+        "sector": "GameFi",
+        "netflow_7d": -160700.0
+      },
+      {
+        "sector": "Decentralized Finance (DeFi)",
+        "netflow_7d": -187200.0
+      }
+    ]
   }
 }
