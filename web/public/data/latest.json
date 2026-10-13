@@ -1,10 +1,88 @@
 {
-  "scanned_at": "2026-10-12T20:33:18.321444+00:00",
-  "api_calls": 2,
+  "scanned_at": "2026-10-13T04:24:11.474751+00:00",
+  "api_calls": 18,
   "consensus": [],
   "exits": [],
   "rotation": {
-    "chains": [],
-    "sectors": []
+    "chains": [
+      {
+        "chain": "base",
+        "netflow_7d": -130100.0
+      },
+      {
+        "chain": "ethereum",
+        "netflow_7d": -1241600.0
+      },
+      {
+        "chain": "robinhood",
+        "netflow_7d": -2260300.0
+      },
+      {
+        "chain": "solana",
+        "netflow_7d": -2491300.0
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Artificial Intelligence",
+        "netflow_7d": 205200.0
+      },
+      {
+        "sector": "GambleFi",
+        "netflow_7d": 112500.0
+      },
+      {
+        "sector": "DePIN",
+        "netflow_7d": 95000.0
+      },
+      {
+        "sector": "DeFi Lending (Money Markets)",
+        "netflow_7d": 79900.0
+      },
+      {
+        "sector": "Data source and Oracle",
+        "netflow_7d": 78100.0
+      },
+      {
+        "sector": "Stablecoin Issuers",
+        "netflow_7d": 70600.0
+      },
+      {
+        "sector": "L1/L2 Token & Derivatives",
+        "netflow_7d": 64500.0
+      },
+      {
+        "sector": "AI Agents",
+        "netflow_7d": 25400.0
+      },
+      {
+        "sector": "Perps",
+        "netflow_7d": 5100.0
+      },
+      {
+        "sector": "Options and Derivatives",
+        "netflow_7d": 5100.0
+      },
+      {
+        "sector": "Crypto Payments",
+        "netflow_7d": -5100.0
+      },
+      {
+        "sector": "GameFi",
+        "netflow_7d": -40700.0
+      },
+      {
+        "sector": "Social Fi",
+        "netflow_7d": -62900.0
+      },
+      {
+        "sector": "Yield Farming Protocols",
+        "netflow_7d": -107100.0
+      },
+      {
+        "sector": "Yield Bearing",
+        "netflow_7d": -107100.0
+      }
+    ]
   }
 }
