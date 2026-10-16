@@ -1,10 +1,92 @@
 {
-  "scanned_at": "2026-10-15T15:55:29.145467+00:00",
-  "api_calls": 2,
+  "scanned_at": "2026-10-16T02:06:06.467302+00:00",
+  "api_calls": 18,
   "consensus": [],
   "exits": [],
   "rotation": {
-    "chains": [],
-    "sectors": []
+    "chains": [
+      {
+        "chain": "ethereum",
+        "netflow_7d": 2024500.0
+      },
+      {
+        "chain": "hyperevm",
+        "netflow_7d": -78500.0
+      },
+      {
+        "chain": "robinhood",
+        "netflow_7d": -856900.0
+      },
+      {
+        "chain": "base",
+        "netflow_7d": -1522000.0
+      },
+      {
+        "chain": "solana",
+        "netflow_7d": -1857300.0
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Tokenized Stocks",
+        "netflow_7d": 1000000.0
+      },
+      {
+        "sector": "Data source and Oracle",
+        "netflow_7d": 456600.0
+      },
+      {
+        "sector": "Scaling & Connectivity",
+        "netflow_7d": 339900.0
+      },
+      {
+        "sector": "DeFi Lending (Money Markets)",
+        "netflow_7d": 276200.0
+      },
+      {
+        "sector": "Artificial Intelligence",
+        "netflow_7d": 144800.0
+      },
+      {
+        "sector": "RWAs",
+        "netflow_7d": 138200.0
+      },
+      {
+        "sector": "GambleFi",
+        "netflow_7d": 121300.0
+      },
+      {
+        "sector": "Crypto Payments",
+        "netflow_7d": 105900.0
+      },
+      {
+        "sector": "DePIN",
+        "netflow_7d": 67000.0
+      },
+      {
+        "sector": "AI Meme",
+        "netflow_7d": 51100.0
+      },
+      {
+        "sector": "Perps",
+        "netflow_7d": 35700.0
+      },
+      {
+        "sector": "Options and Derivatives",
+        "netflow_7d": 35700.0
+      },
+      {
+        "sector": "Stablecoin Issuers",
+        "netflow_7d": 35700.0
+      },
+      {
+        "sector": "Yield Bearing",
+        "netflow_7d": 5800.0
+      },
+      {
+        "sector": "NFTFi",
+        "netflow_7d": -13800.0
+      }
+    ]
   }
 }
