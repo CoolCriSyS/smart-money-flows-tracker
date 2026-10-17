@@ -1,10 +1,96 @@
 {
-  "scanned_at": "2026-10-16T15:43:50.492904+00:00",
-  "api_calls": 2,
+  "scanned_at": "2026-10-17T01:59:57.289165+00:00",
+  "api_calls": 18,
   "consensus": [],
   "exits": [],
   "rotation": {
-    "chains": [],
-    "sectors": []
+    "chains": [
+      {
+        "chain": "ethereum",
+        "netflow_7d": 1648200.0
+      },
+      {
+        "chain": "hyperevm",
+        "netflow_7d": -69800.0
+      },
+      {
+        "chain": "arbitrum",
+        "netflow_7d": -106000.0
+      },
+      {
+        "chain": "robinhood",
+        "netflow_7d": -464500.0
+      },
+      {
+        "chain": "base",
+        "netflow_7d": -1490000.0
+      },
+      {
+        "chain": "solana",
+        "netflow_7d": -1794300.0
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Tokenized Stocks",
+        "netflow_7d": 1000000.0
+      },
+      {
+        "sector": "DeFi Lending (Money Markets)",
+        "netflow_7d": 422800.0
+      },
+      {
+        "sector": "Data source and Oracle",
+        "netflow_7d": 364100.0
+      },
+      {
+        "sector": "GambleFi",
+        "netflow_7d": 171400.0
+      },
+      {
+        "sector": "Crypto Payments",
+        "netflow_7d": 89300.0
+      },
+      {
+        "sector": "Scaling & Connectivity",
+        "netflow_7d": 72200.0
+      },
+      {
+        "sector": "Artificial Intelligence",
+        "netflow_7d": 38200.0
+      },
+      {
+        "sector": "Internet Capital Market",
+        "netflow_7d": 37000.0
+      },
+      {
+        "sector": "Memecoin",
+        "netflow_7d": 37000.0
+      },
+      {
+        "sector": "AI Meme",
+        "netflow_7d": 35800.0
+      },
+      {
+        "sector": "NFTFi",
+        "netflow_7d": 2500.0
+      },
+      {
+        "sector": "Yield Bearing",
+        "netflow_7d": -32900.0
+      },
+      {
+        "sector": "RWAs",
+        "netflow_7d": -36700.0
+      },
+      {
+        "sector": "Yield Farming Protocols",
+        "netflow_7d": -45800.0
+      },
+      {
+        "sector": "Token Launch Platform",
+        "netflow_7d": -82300.0
+      }
+    ]
   }
 }
