@@ -1,10 +1,92 @@
 {
-  "scanned_at": "2026-10-17T14:35:59.169279+00:00",
-  "api_calls": 2,
+  "scanned_at": "2026-10-18T01:59:30.115564+00:00",
+  "api_calls": 18,
   "consensus": [],
   "exits": [],
   "rotation": {
-    "chains": [],
-    "sectors": []
+    "chains": [
+      {
+        "chain": "ethereum",
+        "netflow_7d": 1325200.0
+      },
+      {
+        "chain": "arbitrum",
+        "netflow_7d": -172700.0
+      },
+      {
+        "chain": "solana",
+        "netflow_7d": -632900.0
+      },
+      {
+        "chain": "robinhood",
+        "netflow_7d": -768400.0
+      },
+      {
+        "chain": "base",
+        "netflow_7d": -1148800.0
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Tokenized Stocks",
+        "netflow_7d": 1000000.0
+      },
+      {
+        "sector": "DeFi Lending (Money Markets)",
+        "netflow_7d": 397200.0
+      },
+      {
+        "sector": "GambleFi",
+        "netflow_7d": 170200.0
+      },
+      {
+        "sector": "Crypto Payments",
+        "netflow_7d": 94300.0
+      },
+      {
+        "sector": "AI Meme",
+        "netflow_7d": 39300.0
+      },
+      {
+        "sector": "AI Agents",
+        "netflow_7d": 39300.0
+      },
+      {
+        "sector": "NFTFi",
+        "netflow_7d": -11900.0
+      },
+      {
+        "sector": "Decentralised Exchanges",
+        "netflow_7d": -20600.0
+      },
+      {
+        "sector": "Yield Farming Protocols",
+        "netflow_7d": -41500.0
+      },
+      {
+        "sector": "Token Launch Platform",
+        "netflow_7d": -67900.0
+      },
+      {
+        "sector": "Token Governance",
+        "netflow_7d": -67900.0
+      },
+      {
+        "sector": "Deflationary Token Model",
+        "netflow_7d": -67900.0
+      },
+      {
+        "sector": "Smart Contract Automation",
+        "netflow_7d": -67900.0
+      },
+      {
+        "sector": "Yield Bearing",
+        "netflow_7d": -76200.0
+      },
+      {
+        "sector": "GameFi",
+        "netflow_7d": -76500.0
+      }
+    ]
   }
 }
