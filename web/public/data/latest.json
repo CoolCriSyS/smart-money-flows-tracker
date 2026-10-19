@@ -1,96 +1,10 @@
 {
-  "scanned_at": "2026-10-19T02:16:31.882126+00:00",
-  "api_calls": 18,
+  "scanned_at": "2026-10-19T17:54:46.696746+00:00",
+  "api_calls": 2,
   "consensus": [],
   "exits": [],
   "rotation": {
-    "chains": [
-      {
-        "chain": "ethereum",
-        "netflow_7d": 737200.0
-      },
-      {
-        "chain": "hyperevm",
-        "netflow_7d": 30000.0
-      },
-      {
-        "chain": "arbitrum",
-        "netflow_7d": -173300.0
-      },
-      {
-        "chain": "solana",
-        "netflow_7d": -577300.0
-      },
-      {
-        "chain": "robinhood",
-        "netflow_7d": -662300.0
-      },
-      {
-        "chain": "base",
-        "netflow_7d": -1153100.0
-      }
-    ],
-    "sectors": [
-      {
-        "sector": "Tokenized Stocks",
-        "netflow_7d": 1000000.0
-      },
-      {
-        "sector": "DeFi Lending (Money Markets)",
-        "netflow_7d": 380400.0
-      },
-      {
-        "sector": "NFTFi",
-        "netflow_7d": 163300.0
-      },
-      {
-        "sector": "GambleFi",
-        "netflow_7d": 162600.0
-      },
-      {
-        "sector": "Crypto Payments",
-        "netflow_7d": 148500.0
-      },
-      {
-        "sector": "Social Fi",
-        "netflow_7d": 43100.0
-      },
-      {
-        "sector": "Yield Farming Protocols",
-        "netflow_7d": 15600.0
-      },
-      {
-        "sector": "Token Launch Platform",
-        "netflow_7d": -65500.0
-      },
-      {
-        "sector": "Token Governance",
-        "netflow_7d": -65500.0
-      },
-      {
-        "sector": "Deflationary Token Model",
-        "netflow_7d": -65500.0
-      },
-      {
-        "sector": "Smart Contract Automation",
-        "netflow_7d": -65500.0
-      },
-      {
-        "sector": "Yield Bearing",
-        "netflow_7d": -81900.0
-      },
-      {
-        "sector": "Data source and Oracle",
-        "netflow_7d": -83300.0
-      },
-      {
-        "sector": "Perps",
-        "netflow_7d": -98800.0
-      },
-      {
-        "sector": "Options and Derivatives",
-        "netflow_7d": -98800.0
-      }
-    ]
+    "chains": [],
+    "sectors": []
   }
 }
