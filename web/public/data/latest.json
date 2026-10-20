@@ -1,10 +1,96 @@
 {
-  "scanned_at": "2026-10-19T17:54:46.696746+00:00",
-  "api_calls": 2,
+  "scanned_at": "2026-10-20T02:31:05.409956+00:00",
+  "api_calls": 17,
   "consensus": [],
   "exits": [],
   "rotation": {
-    "chains": [],
-    "sectors": []
+    "chains": [
+      {
+        "chain": "ethereum",
+        "netflow_7d": 1063900.0
+      },
+      {
+        "chain": "hyperevm",
+        "netflow_7d": 30000.0
+      },
+      {
+        "chain": "base",
+        "netflow_7d": -72500.0
+      },
+      {
+        "chain": "arbitrum",
+        "netflow_7d": -106000.0
+      },
+      {
+        "chain": "solana",
+        "netflow_7d": -210100.0
+      },
+      {
+        "chain": "robinhood",
+        "netflow_7d": -531200.0
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Tokenized Stocks",
+        "netflow_7d": 1000000.0
+      },
+      {
+        "sector": "NFTFi",
+        "netflow_7d": 220600.0
+      },
+      {
+        "sector": "GambleFi",
+        "netflow_7d": 141000.0
+      },
+      {
+        "sector": "Crypto Payments",
+        "netflow_7d": 102800.0
+      },
+      {
+        "sector": "AI Meme",
+        "netflow_7d": 99600.0
+      },
+      {
+        "sector": "DeFi Lending (Money Markets)",
+        "netflow_7d": 47800.0
+      },
+      {
+        "sector": "Social Fi",
+        "netflow_7d": 40300.0
+      },
+      {
+        "sector": "Ecosystem Token",
+        "netflow_7d": 37700.0
+      },
+      {
+        "sector": "Community Engagement",
+        "netflow_7d": 37700.0
+      },
+      {
+        "sector": "Analytics and Exploration",
+        "netflow_7d": 37700.0
+      },
+      {
+        "sector": "RWAs",
+        "netflow_7d": 35200.0
+      },
+      {
+        "sector": "AI Agents",
+        "netflow_7d": 32600.0
+      },
+      {
+        "sector": "Token Launch Platform",
+        "netflow_7d": -36900.0
+      },
+      {
+        "sector": "Token Governance",
+        "netflow_7d": -36900.0
+      },
+      {
+        "sector": "Deflationary Token Model",
+        "netflow_7d": -36900.0
+      }
+    ]
   }
 }
