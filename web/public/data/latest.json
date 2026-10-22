@@ -1,96 +1,10 @@
 {
-  "scanned_at": "2026-10-22T02:20:26.902310+00:00",
-  "api_calls": 18,
+  "scanned_at": "2026-10-22T16:14:24.200247+00:00",
+  "api_calls": 2,
   "consensus": [],
   "exits": [],
   "rotation": {
-    "chains": [
-      {
-        "chain": "ethereum",
-        "netflow_7d": 944500.0
-      },
-      {
-        "chain": "base",
-        "netflow_7d": -202500.0
-      },
-      {
-        "chain": "arbitrum",
-        "netflow_7d": -204600.0
-      },
-      {
-        "chain": "robinhood",
-        "netflow_7d": -262600.0
-      },
-      {
-        "chain": "bsc",
-        "netflow_7d": -1225300.0
-      },
-      {
-        "chain": "solana",
-        "netflow_7d": -1553500.0
-      }
-    ],
-    "sectors": [
-      {
-        "sector": "Tokenized Stocks",
-        "netflow_7d": 1000000.0
-      },
-      {
-        "sector": "AI Agents",
-        "netflow_7d": 130000.0
-      },
-      {
-        "sector": "Perps",
-        "netflow_7d": 87100.0
-      },
-      {
-        "sector": "Options and Derivatives",
-        "netflow_7d": 87100.0
-      },
-      {
-        "sector": "Scaling & Connectivity",
-        "netflow_7d": 68700.0
-      },
-      {
-        "sector": "Ecosystem Token",
-        "netflow_7d": 63500.0
-      },
-      {
-        "sector": "Community Engagement",
-        "netflow_7d": 63500.0
-      },
-      {
-        "sector": "Analytics and Exploration",
-        "netflow_7d": 63500.0
-      },
-      {
-        "sector": "AI Meme",
-        "netflow_7d": -18300.0
-      },
-      {
-        "sector": "Social Fi",
-        "netflow_7d": -58100.0
-      },
-      {
-        "sector": "Data source and Oracle",
-        "netflow_7d": -66300.0
-      },
-      {
-        "sector": "Decentralised Exchanges",
-        "netflow_7d": -72600.0
-      },
-      {
-        "sector": "Stablecoin Issuers",
-        "netflow_7d": -167000.0
-      },
-      {
-        "sector": "Yield Farming Protocols",
-        "netflow_7d": -189100.0
-      },
-      {
-        "sector": "DePIN",
-        "netflow_7d": -204600.0
-      }
-    ]
+    "chains": [],
+    "sectors": []
   }
 }
